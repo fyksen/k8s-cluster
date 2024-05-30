@@ -3,10 +3,3 @@ kind: Kustomization
 metadata:
   name: namespaces
   namespace: flux-system
-spec:
-  interval: 1m
-  path: "./namespaces"
-  prune: true
-  sourceRef:
-    kind: GitRepository
-    name: flux-system
