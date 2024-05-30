@@ -5,12 +5,14 @@
 
 ## Bootstrap
 
+* In this example, the github repo is  already created before bootstrapping flux.
+
 ```
 flux bootstrap github \
   --token-auth \
   --owner=fyksen \
   --repository=k8s-cluster \
   --branch=main \
-  --path=k8s \
-  --personal
+  --path=k8s
 ```
+
