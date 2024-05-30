@@ -4,5 +4,5 @@ kind: Kustomization
 resources:
   # Pre Flux-Kustomizations
   - ./namespace.yaml
-  - ./repository.yaml
-  - ./release.yaml
+  - ./app/repository.yaml
+  - ./app/release.yaml
