@@ -11,6 +11,6 @@ flux bootstrap github \
   --owner=fyksen \
   --repository=k8s-cluster \
   --branch=main \
-  --path=k8s/ \
+  --path=k8s \
   --personal
 ```
