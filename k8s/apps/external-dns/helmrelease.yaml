@@ -25,7 +25,7 @@ spec:
       strategy: rollback
       retries: 3
   values:
-    fullnameOverride: *app
+    fullnameOverride: external-dns-cloudflare
     provider:
       name: cloudflare
   env:
@@ -51,7 +51,7 @@ spec:
     sources: ["crd", "ingress"]
     txtOwnerId: default
     txtPrefix: k8s.
-    domainFilters: ["devbu.io"]
+    domainFilters: ["fyksen.me"]
     serviceMonitor:
       enabled: true
     podAnnotations:
