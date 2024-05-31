@@ -28,17 +28,17 @@ spec:
     fullnameOverride: external-dns-cloudflare
     provider:
       name: cloudflare
-  env:
-    - name: CF_API_EMAIL
-      valueFrom:
-        secretKeyRef:
-          name: external-dns-cloudflare-secret
-          key: CF_API_EMAIL
-    - name: CF_API_KEY
-      valueFrom:
-        secretKeyRef:
-          name: external-dns-cloudflare-secret
-          key: CF_API_KEY
+    env:
+      - name: CF_API_EMAIL
+        valueFrom:
+          secretKeyRef:
+            name: external-dns-cloudflare-secret
+            key: CF_API_EMAIL
+      - name: CF_API_KEY
+        valueFrom:
+          secretKeyRef:
+            name: external-dns-cloudflare-secret
+            key: CF_API_KEY
     extraArgs:
       - --cloudflare-dns-records-per-page=1000
       - --cloudflare-proxied
