@@ -54,4 +54,4 @@ spec:
     txtPrefix: k8s.
     domainFilters: ["fyksen.me"]
     serviceMonitor:
-      enabled: true
+      enabled: false
