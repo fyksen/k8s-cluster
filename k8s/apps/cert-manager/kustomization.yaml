@@ -6,4 +6,4 @@ resources:
   - ./namespace.yaml
   - ./app/repository.yaml
   - ./app/release.yaml
-  - ./issuers/kustomization.yaml
+  - ./issuers/
