@@ -54,5 +54,3 @@ spec:
     domainFilters: ["fyksen.me"]
     serviceMonitor:
       enabled: true
-    podAnnotations:
-      secret.reloader.stakater.com/reload: *secret
