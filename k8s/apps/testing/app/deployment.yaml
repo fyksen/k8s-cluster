@@ -18,3 +18,11 @@ spec:
         image: nginx:latest
         ports:
         - containerPort: 80
+        volumeMounts:
+        - name: html
+          mountPath: /usr/share/nginx/html
+          readOnly: true
+      volumes:
+      - name: html
+        configMap:
+          name: nginx-configmap
