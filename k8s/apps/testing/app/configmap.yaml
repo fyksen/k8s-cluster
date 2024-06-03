@@ -8,10 +8,10 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-    <title>Hello World</title>
+    <title>Fisefint!</title>
     </head>
     <body>
-    <h1>Hello World</h1>
-    <p>This is a Nginx server.</p>
+    <h1>Fisefint!</h1>
+    <p>Hurra!</p>
     </body>
     </html>
