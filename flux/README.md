@@ -16,4 +16,4 @@ flux bootstrap github \
   --path=k8s
 ```
 
-🤩
+🤩🤩
