@@ -5,4 +5,5 @@ namespace: observability
 resources:
   # Pre Flux-Kustomizations
   - ./app/persistent-volume-claim.yaml
+  - ./app/namespace.yaml
 #  - ./app/helm-release.yaml
