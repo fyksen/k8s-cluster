@@ -46,8 +46,7 @@ data:
     
     <h1>EM for idiots</h1>
     <p class="info">Dette er bare finaler som Norge (antakeligvis) har deltakere i. Alle øvelsene sendes på NRK.</p>
-    <p>Hele programmet</p>
-    <a href="full.html">Hele programmet</a> 
+     <a href="full.html">Hele programmet</a> 
     <table>
         <tr class="date"><td colspan="2">Fredag 7. juni</td></tr>
         <tr><td>22:40</td><td>5.000 meter kvinner - Karoline Bjerkeli Grøvdal (Finale)</td></tr>
@@ -115,32 +114,134 @@ data:
     <body>
     
     <h1>EM for idiots</h1>
-    <p class="info">Dette er bare finaler som Norge (antakeligvis) har deltakere i. Alle øvelsene sendes på NRK.</p>
-    <p>Hele programmet</p>
-    <a href="full.html">Hele programmet</a> 
+    <a href="index.html">Bare finaler med Nordmenn</a> 
+    
     <table>
-        <tr class="date"><td colspan="2">Fredag 7. juni</td></tr>
-        <tr><td>22:40</td><td>5.000 meter kvinner - Karoline Bjerkeli Grøvdal (Finale)</td></tr>
+        <tr class="date"><td colspan="2">Friday, June 7</td></tr>
+        <tr><td>09:35</td><td>Diskos Men - Qualification</td></tr>
+        <tr><td>09:40</td><td>100m hurdles Women - Qualification</td></tr>
+        <tr><td>10:03</td><td>Shot put Women - Qualification</td></tr>
+        <tr><td>10:10</td><td>100m hurdles Women - Qualification Round</td></tr>
+        <tr><td>10:40</td><td>110m hurdles Men - Qualification Round</td></tr>
+        <tr><td>11:10</td><td>Triple jump Women - Qualification</td></tr>
+        <tr><td>11:35</td><td>High jump Women - Qualification</td></tr>
+        <tr><td>11:45</td><td>1500m Women - Heats</td></tr>
+        <tr><td>12:15</td><td>Diskos Women - Qualification</td></tr>
+        <tr><td>12:20</td><td>800m Men - Heats</td></tr>
+        <tr><td>12:55</td><td>Long jump Men - Qualification</td></tr>
+        <tr><td>13:05</td><td>3000m steeplechase Women - Heats</td></tr>
+        <tr><td>18:35</td><td>20km race walk Women</td></tr>
+        <tr><td>18:40</td><td>Shot put Women</td></tr>
+        <tr><td>19:55</td><td>Shot put Men - Qualification</td></tr>
+        <tr><td>20:30</td><td>High jump Women - Qualification</td></tr>
+        <tr><td>21:00</td><td>Diskos Men - Final</td></tr>
+        <tr><td>21:10</td><td>100m Men - Qualification Round</td></tr>
+        <tr><td>21:33</td><td>Shot put Women - Final</td></tr>
+        <tr><td>21:45</td><td>200m Women</td></tr>
+        <tr><td>22:20</td><td>4 x 400m relay Mixed</td></tr>
+        <tr><td>22:40</td><td>5000m Women</td></tr>
     
-        <tr class="date"><td colspan="2">Lørdag 8. juni</td></tr>
-        <tr><td>22:28</td><td>5.000 meter menn - Jakob Ingebrigtsen og Narve Gilje Nordås (Finale)</td></tr>
+        <tr class="date"><td colspan="2">Saturday, June 8</td></tr>
+        <tr><td>10:05</td><td>Hammer throw Men - Qualification</td></tr>
+        <tr><td>10:10</td><td>3000m steeplechase Men - Heats</td></tr>
+        <tr><td>10:40</td><td>Pole vault Women - Qualification</td></tr>
+        <tr><td>10:50</td><td>100m Women - Qualification Round</td></tr>
+        <tr><td>11:45</td><td>400m Men - Qualification Round</td></tr>
+        <tr><td>12:10</td><td>Long jump Women</td></tr>
+        <tr><td>12:20</td><td>400m Women - Qualification Round</td></tr>
+        <tr><td>18:00</td><td>20km race walk Men</td></tr>
+        <tr><td>18:05</td><td>Javelin Women</td></tr>
+        <tr><td>19:50</td><td>800m Men - Semifinal</td></tr>
+        <tr><td>20:06</td><td>Long jump Men - Final</td></tr>
+        <tr><td>20:12</td><td>100m hurdles Women - Semifinal</td></tr>
+        <tr><td>20:38</td><td>110m hurdles Men - Semifinal</td></tr>
+        <tr><td>21:02</td><td>Shot put Men - Final</td></tr>
+        <tr><td>21:10</td><td>100m Men - Semifinal</td></tr>
+        <tr><td>21:37</td><td>Diskos Women - Final</td></tr>
+        <tr><td>21:47</td><td>800m Women</td></tr>
+        <tr><td>22:08</td><td>100m hurdles Women - Final</td></tr>
+        <tr><td>22:18</td><td>110m hurdles Men - Final</td></tr>
+        <tr><td>22:28</td><td>5000m Men</td></tr>
+        <tr><td>22:53</td><td>100m Men - Final</td></tr>
     
-        <tr class="date"><td colspan="2">Søndag 9. juni</td></tr>
-        <tr><td>21:11</td><td>Sleggekast menn - Eivind Henriksen (Finale)</td></tr>
+        <tr class="date"><td colspan="2">Sunday, June 9</td></tr>
+        <tr><td>09:00</td><td>Half marathon Men</td></tr>
+        <tr><td>09:00</td><td>Half marathon team Men</td></tr>
+        <tr><td>09:30</td><td>Half marathon Women</td></tr>
+        <tr><td>09:30</td><td>Half marathon team Women</td></tr>
+        <tr><td>10:05</td><td>Hammer throw Women - Qualification</td></tr>
+        <tr><td>10:45</td><td>Triple jump Men - Qualification</td></tr>
+        <tr><td>11:35</td><td>High jump Men - Qualification</td></tr>
+        <tr><td>11:50</td><td>200m Men - Qualification Round</td></tr>
+        <tr><td>12:40</td><td>400m hurdles Women - Qualification Round</td></tr>
+        <tr><td>13:20</td><td>400m hurdles Men - Qualification Round</td></tr>
+        <tr><td>20:05</td><td>400m Women - Semifinal</td></tr>
+        <tr><td>20:30</td><td>High jump Women - Final</td></tr>
+        <tr><td>20:38</td><td>400m Men - Semifinal</td></tr>
+        <tr><td>21:05</td><td>100m Women - Semifinal</td></tr>
+        <tr><td>21:11</td><td>Hammer throw Men - Final</td></tr>
+        <tr><td>21:21</td><td>Triple jump Women - Final</td></tr>
+        <tr><td>21:35</td><td>200m Men - Semifinal</td></tr>
+        <tr><td>22:04</td><td>3000m steeplechase Women - Final</td></tr>
+        <tr><td>22:27</td><td>800m Men - Final</td></tr>
+        <tr><td>22:36</td><td>1500m Women - Final</td></tr>
+        <tr><td>22:53</td><td>100m Women - Final</td></tr>
     
-        <tr class="date"><td colspan="2">Mandag 10. juni</td></tr>
-        <tr><td>21:40</td><td>400 meter menn - Håvard Bentdal Ingvaldsen (Finale)</td></tr>
+        <tr class="date"><td colspan="2">Monday, June 10</td></tr>
+        <tr><td>10:05</td><td>100m Men</td></tr>
+        <tr><td>10:18</td><td>Pole vault Men - Qualification</td></tr>
+        <tr><td>10:25</td><td>Javelin Women - Qualification</td></tr>
+        <tr><td>10:35</td><td>200m Women - Qualification Round</td></tr>
+        <tr><td>11:05</td><td>Long jump Men</td></tr>
+        <tr><td>11:20</td><td>1500m Men - Heats</td></tr>
+        <tr><td>11:50</td><td>800m Women - Heats</td></tr>
+        <tr><td>12:40</td><td>400m hurdles Men - Semifinal</td></tr>
+        <tr><td>13:05</td><td>Shot put Men</td></tr>
+        <tr><td>13:15</td><td>400m hurdles Women - Semifinal</td></tr>
+        <tr><td>19:30</td><td>High jump Men</td></tr>
+        <tr><td>20:15</td><td>Pole vault Women - Final</td></tr>
+        <tr><td>21:05</td><td>200m Women - Semifinal</td></tr>
+        <tr><td>21:33</td><td>Hammer throw Women - Final</td></tr>
+        <tr><td>21:40</td><td>400m Men - Final</td></tr>
+        <tr><td>21:50</td><td>400m Women - Final</td></tr>
+        <tr><td>22:00</td><td>3000m steeplechase Men - Final</td></tr>
+        <tr><td>22:20</td><td>400m Men</td></tr>
+        <tr><td>22:50</td><td>200m Men - Final</td></tr>
     
-        <tr class="date"><td colspan="2">Tirsdag 11. juni</td></tr>
-        <tr><td>21:05</td><td>400 meter hekk menn - Karsten Warholm (Finale)</td></tr>
-        <tr><td>21:18</td><td>400 meter hekk kvinner - Amalie Iuel (Finale)</td></tr>
-        <tr><td>21:36</td><td>Spydkast kvinner - Sigrid Borge (Finale)</td></tr>
-        <tr><td>22:25</td><td>Tikamp menn - Marius Rooth og Sondre Skotheim (Siste øvelse: 1.500 meter)</td></tr>
-        <tr><td>22:53</td><td>200 meter kvinner - Henriette Jæger (Finale)</td></tr>
+        <tr class="date"><td colspan="2">Tuesday, June 11</td></tr>
+        <tr><td>09:35</td><td>110m hurdles Men</td></tr>
+        <tr><td>10:10</td><td>800m Women - Semifinal</td></tr>
+        <tr><td>10:30</td><td>Diskos Men</td></tr>
+        <tr><td>10:35</td><td>Long jump Women - Qualification</td></tr>
+        <tr><td>10:45</td><td>4 x 400m relay Men - Heats</td></tr>
+        <tr><td>11:15</td><td>4 x 400m relay Women - Heats</td></tr>
+        <tr><td>11:55</td><td>Pole vault Men</td></tr>
+        <tr><td>12:00</td><td>4 x 100m relay Men - Heats</td></tr>
+        <tr><td>12:30</td><td>4 x 100m relay Women - Heats</td></tr>
+        <tr><td>13:00</td><td>Javelin Men - Qualification</td></tr>
+        <tr><td>19:05</td><td>Javelin Men</td></tr>
+        <tr><td>19:50</td><td>10000m Women - Final B</td></tr>
+        <tr><td>20:35</td><td>High jump Men - Final</td></tr>
+        <tr><td>20:55</td><td>Triple jump Men - Final</td></tr>
+        <tr><td>21:05</td><td>400m hurdles Women - Final</td></tr>
+        <tr><td>21:18</td><td>400m hurdles Men - Final</td></tr>
+        <tr><td>21:30</td><td>10000m Women - Final A</td></tr>
+        <tr><td>21:36</td><td>Javelin Women - Final</td></tr>
+        <tr><td>22:25</td><td>1500m Men</td></tr>
+        <tr><td>22:53</td><td>200m Women - Final</td></tr>
     
-        <tr class="date"><td colspan="2">Onsdag 12. juni</td></tr>
-        <tr><td>20:20</td><td>Stavsprang menn - Sondre Guttormsen og Pål Haugen Lillefosse (Finale)</td></tr>
-        <tr><td>22:26</td><td>1.500 meter menn - Jakob Ingebrigtsen og Narve Gilje Nordås (Finale)</td></tr>
+        <tr class="date"><td colspan="2">Wednesday, June 12</td></tr>
+        <tr><td>20:12</td><td>10000m Men - Final B</td></tr>
+        <tr><td>20:20</td><td>Pole vault Men - Final</td></tr>
+        <tr><td>20:28</td><td>Javelin Men - Final</td></tr>
+        <tr><td>20:54</td><td>Long jump Women - Final</td></tr>
+        <tr><td>21:06</td><td>4 x 400m relay Women - Final</td></tr>
+        <tr><td>21:19</td><td>4 x 400m relay Men - Final</td></tr>
+        <tr><td>21:31</td><td>800m Women - Final</td></tr>
+        <tr><td>21:44</td><td>10000m Men - Final A</td></tr>
+        <tr><td>22:26</td><td>1500m Men</td></tr>
+        <tr><td>22:38</td><td>4 x 100m relay Women - Final</td></tr>
+        <tr><td>22:50</td><td>4 x 100m relay Men - Final</td></tr>
     </table>
     
     </body>
