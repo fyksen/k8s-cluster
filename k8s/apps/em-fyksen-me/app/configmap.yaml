@@ -46,7 +46,78 @@ data:
     
     <h1>EM for idiots</h1>
     <p class="info">Dette er bare finaler som Norge (antakeligvis) har deltakere i. Alle øvelsene sendes på NRK.</p>
+    <p>Hele programmet</p>
+    <a href="full.html">Hele programmet</a> 
+    <table>
+        <tr class="date"><td colspan="2">Fredag 7. juni</td></tr>
+        <tr><td>22:40</td><td>5.000 meter kvinner - Karoline Bjerkeli Grøvdal (Finale)</td></tr>
     
+        <tr class="date"><td colspan="2">Lørdag 8. juni</td></tr>
+        <tr><td>22:28</td><td>5.000 meter menn - Jakob Ingebrigtsen og Narve Gilje Nordås (Finale)</td></tr>
+    
+        <tr class="date"><td colspan="2">Søndag 9. juni</td></tr>
+        <tr><td>21:11</td><td>Sleggekast menn - Eivind Henriksen (Finale)</td></tr>
+    
+        <tr class="date"><td colspan="2">Mandag 10. juni</td></tr>
+        <tr><td>21:40</td><td>400 meter menn - Håvard Bentdal Ingvaldsen (Finale)</td></tr>
+    
+        <tr class="date"><td colspan="2">Tirsdag 11. juni</td></tr>
+        <tr><td>21:05</td><td>400 meter hekk menn - Karsten Warholm (Finale)</td></tr>
+        <tr><td>21:18</td><td>400 meter hekk kvinner - Amalie Iuel (Finale)</td></tr>
+        <tr><td>21:36</td><td>Spydkast kvinner - Sigrid Borge (Finale)</td></tr>
+        <tr><td>22:25</td><td>Tikamp menn - Marius Rooth og Sondre Skotheim (Siste øvelse: 1.500 meter)</td></tr>
+        <tr><td>22:53</td><td>200 meter kvinner - Henriette Jæger (Finale)</td></tr>
+    
+        <tr class="date"><td colspan="2">Onsdag 12. juni</td></tr>
+        <tr><td>20:20</td><td>Stavsprang menn - Sondre Guttormsen og Pål Haugen Lillefosse (Finale)</td></tr>
+        <tr><td>22:26</td><td>1.500 meter menn - Jakob Ingebrigtsen og Narve Gilje Nordås (Finale)</td></tr>
+    </table>
+    
+    </body>
+    </html>
+  full.html: |
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🏃 EM for idiots</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            h1 {
+                color: #2E8B57;
+            }
+            .info {
+                font-weight: bold;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            th, td {
+                padding: 10px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+            .date {
+                background-color: #f9f9f9;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <h1>EM for idiots</h1>
+    <p class="info">Dette er bare finaler som Norge (antakeligvis) har deltakere i. Alle øvelsene sendes på NRK.</p>
+    <p>Hele programmet</p>
+    <a href="full.html">Hele programmet</a> 
     <table>
         <tr class="date"><td colspan="2">Fredag 7. juni</td></tr>
         <tr><td>22:40</td><td>5.000 meter kvinner - Karoline Bjerkeli Grøvdal (Finale)</td></tr>
