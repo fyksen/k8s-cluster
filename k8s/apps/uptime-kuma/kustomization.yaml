@@ -6,5 +6,3 @@ resources:
   # Pre Flux-Kustomizations
   - ./app/namespace.yaml
   - ./app/persistent-volume-claim.yaml
-  - ./app/repository.yaml
-  - ./app/helm-release.yaml
