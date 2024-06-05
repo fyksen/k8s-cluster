@@ -64,8 +64,6 @@ spec:
       app:
         annotations:
           cert-manager.io/cluster-issuer: letsencrypt-production
-          hajimari.io/enable: "true"
-          hajimari.io/icon: web-check
         className: "nginx"
         hosts:
           - host: status.fyksen.me
