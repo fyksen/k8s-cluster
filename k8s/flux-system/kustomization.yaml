@@ -5,3 +5,4 @@ resources:
 - gotk-sync.yaml
 - ./webhook/ingress.yaml
 - ./webhook/receiver.yaml
+- /apps/
