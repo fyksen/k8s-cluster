@@ -5,5 +5,5 @@ resources:
 - gotk-sync.yaml
 - ./webhook/ingress.yaml
 - ./webhook/receiver.yaml
-- ../boilerplate/kustomization.yaml
-- ../apps/kustomization.yaml
+- ../boilerplate/
+- ../apps/
