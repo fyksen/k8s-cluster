@@ -2,6 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: HelmRepository
 metadata:
   name: nginx-stable
+  namespace: flux-system
 spec:
   interval: 1m
   url: https://helm.nginx.com/stable
