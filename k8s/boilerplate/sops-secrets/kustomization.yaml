@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
   - ./secrets/encrypted-testsecret.yaml
 generators:
-  - sopssecretgenerator.yaml
+  - ./sopssecretgenerator.yaml
