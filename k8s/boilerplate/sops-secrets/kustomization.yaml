@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
   # Pre Flux-Kustomizations
   #- ./sops.yaml
-  - ./secrets/basic-auth.yaml
+  #- ./secrets/basic-auth.yaml
