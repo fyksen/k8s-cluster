@@ -7,3 +7,4 @@ resources:
   - ./cert-manager.yaml
   - ./external-dns.yaml
   - ./observability.yaml
+  - ./familie.yaml
