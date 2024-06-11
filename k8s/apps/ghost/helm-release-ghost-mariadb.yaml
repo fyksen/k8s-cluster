@@ -16,11 +16,13 @@ spec:
         namespace: flux-system
       interval: 15m
   values:
-    auth:
-      # database__connection__host: ghost-mariadb
-      rootPassword: ${MEDIA_GHOST_DB_ROOT_PASSWORD}
-      username: ${MEDIA_GHOST_DB_USER}
-      password: ${MEDIA_GHOST_DB_PASSWORD}
-      database: ${MEDIA_GHOST_DB_DB}
-    persistence:
-      existingClaim: ghost-db-pvc
+      auth:
+        rootPassword: "{{ .Values.auth.rootPassword | b64enc }}"
+        username: "{{ .Values.auth.username | b64enc }}"
+        password: "{{ .Values.auth.password | b64enc }}"
+        database: "{{ .Values.auth.database | b64enc }}"
+      mariadb:
+        existingSecret: db-secrets
+      persistence:
+        existingClaim: ghost-db-pvc
+  
