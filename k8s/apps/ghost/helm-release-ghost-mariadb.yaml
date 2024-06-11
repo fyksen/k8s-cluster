@@ -16,10 +16,7 @@ spec:
         namespace: flux-system
       interval: 15m
   values:
-      auth:
-        existingSecret: db-secrets
-      mariadb:
-        existingSecret: db-secrets
-      persistence:
-        existingClaim: ghost-db-pvc
-  
+    auth:
+      existingSecret: db-secrets
+    persistence:
+      existingClaim: ghost-db-pvc
