@@ -17,10 +17,7 @@ spec:
       interval: 15m
   values:
       auth:
-        rootPassword: "{{ .Values.auth.rootPassword | b64enc }}"
-        username: "{{ .Values.auth.username | b64enc }}"
-        password: "{{ .Values.auth.password | b64enc }}"
-        database: "{{ .Values.auth.database | b64enc }}"
+        existingSecret: db-secrets
       mariadb:
         existingSecret: db-secrets
       persistence:
