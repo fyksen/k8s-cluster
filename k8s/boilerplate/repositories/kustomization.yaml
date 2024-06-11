@@ -7,3 +7,4 @@ resources:
   - ./nginx-stable.yaml
   - ./bjw-s-charts.yaml
   - ./jetstack.yaml
+  - ./bitnami-charts.yaml
