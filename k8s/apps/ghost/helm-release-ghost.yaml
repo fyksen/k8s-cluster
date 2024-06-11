@@ -3,7 +3,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
   name: ghost
-  namespace: media
+  namespace: familie
 spec:
   interval: 15m
   chart:
@@ -27,7 +27,7 @@ spec:
               TZ: "Europe/Oslo"
               url: "https://ghost-test.fyksen.me"
               database__client: mysql
-              database__connection__host: ghost-mariadb.media.svc.cluster.local
+              database__connection__host: ghost-mariadb.familie.svc.cluster.local
               database__connection__user: "{{ .Values.auth.username | b64enc }}"
               database__connection__password: "{{ .Values.auth.password | b64enc }}"
               database__connection__database: "{{ .Values.auth.database | b64enc }}"
