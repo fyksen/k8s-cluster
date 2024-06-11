@@ -24,13 +24,29 @@ spec:
               repository: ghost
               tag: 5.84.2
             env:
-              TZ: "Europe/Oslo"
-              url: "https://ghost-test.fyksen.me"
-              database__client: mysql
-              database__connection__host: ghost-mariadb.familie.svc.cluster.local
-              database__connection__user: "{{ .Values.auth.username | b64enc }}"
-              database__connection__password: "{{ .Values.auth.password | b64enc }}"
-              database__connection__database: "{{ .Values.auth.database | b64enc }}"
+              - name: TZ
+                value: "Europe/Oslo"
+              - name: url
+                value: "https://ghost-test.fyksen.me"
+              - name: database__client
+                value: "mysql"
+              - name: database__connection__database
+                value: "ghost"
+              - name: database__connection__user
+                valueFrom:
+                  secretKeyRef:
+                    name: db-secrets
+                    key: mariadb-user
+              - name: database__connection__password
+                valueFrom:
+                  secretKeyRef:
+                    name: db-secrets
+                    key: mariadb-password
+              - name: database__connection__database
+                valueFrom:
+                  secretKeyRef:
+                    name: db-secrets
+                    key: mariadb-database
 
     service:
       main:
