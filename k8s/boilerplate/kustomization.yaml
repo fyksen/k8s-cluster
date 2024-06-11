@@ -5,4 +5,4 @@ resources:
   # Pre Flux-Kustomizations
   - ./repositories/
   - ./namespaces/
-  - ./sops-secrets/
+  #- ./sops-secrets/
