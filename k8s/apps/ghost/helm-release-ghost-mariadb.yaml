@@ -24,10 +24,3 @@ spec:
       database: ${MEDIA_GHOST_DB_DB}
     persistence:
       existingClaim: ghost-db-pvc
-
-kubectl -n familie create secret generic db-secrets \
---from-literal=rootPassword=Toipaiyun9Waovegho1oohie8chaim4l \
---from-literal=username=ghost \
---from-literal=password=ko5aefiwoongethie5dohche0ce5Mii2 \
---from-literal=database=ghost-db \
---dry-run=client -o yaml > db-secrets.yaml
