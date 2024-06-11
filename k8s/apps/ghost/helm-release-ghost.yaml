@@ -47,6 +47,8 @@ spec:
                   secretKeyRef:
                     name: db-secrets
                     key: mariadb-database
+              - name: database__connection__host
+                value: "ghost-mariadb.familie.svc.cluster.local"                 
 
     service:
       main:
