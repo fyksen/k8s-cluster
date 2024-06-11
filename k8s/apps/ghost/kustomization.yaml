@@ -6,4 +6,4 @@ resources:
   - db-pvc.yaml
   - helm-release-ghost-mariadb.yaml
   - content-pvc.yaml
-
+  - helm-release-ghost.yaml
