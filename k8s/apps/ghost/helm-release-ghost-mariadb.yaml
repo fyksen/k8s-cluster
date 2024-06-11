@@ -19,5 +19,6 @@ spec:
     auth:
       existingSecret: db-secrets
       database: ghost
+      username: ghost
     persistence:
       existingClaim: ghost-db-pvc
