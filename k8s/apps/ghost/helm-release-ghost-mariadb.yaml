@@ -20,5 +20,6 @@ spec:
       existingSecret: db-secrets
       database: ghost
       username: ghost
+  primary:
     persistence:
       existingClaim: ghost-db-pvc
