@@ -8,4 +8,4 @@ resources:
   - ./external-dns/
   - ./nginx-ingress/
   - ./uptime-kuma/
-  - ./ghost/
+#  - ./ghost/
