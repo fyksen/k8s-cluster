@@ -8,3 +8,4 @@ resources:
   - ./bjw-s-charts.yaml
   - ./jetstack.yaml
   - ./bitnami-charts.yaml
+  - ./bitwarden.yaml
