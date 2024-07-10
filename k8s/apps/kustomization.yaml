@@ -8,5 +8,5 @@ resources:
   - ./external-dns/
   - ./nginx-ingress/
   - ./uptime-kuma/
-  - ./bitwarden-secrets-operator/
-#  - ./ghost/
+  - ./bitwarden-so/
+#  - ./ghost/ 
