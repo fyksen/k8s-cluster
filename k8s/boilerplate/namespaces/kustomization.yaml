@@ -8,3 +8,4 @@ resources:
   - ./external-dns.yaml
   - ./observability.yaml
   - ./familie.yaml
+  - ./bitwarden.yaml
