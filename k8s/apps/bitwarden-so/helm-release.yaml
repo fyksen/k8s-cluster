@@ -1,7 +1,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
-  name: bitwarden-secrets-manager-kubernetes-operator
+  name: bw-sm-operator
   namespace: bitwarden
 spec:
   interval: 5m
