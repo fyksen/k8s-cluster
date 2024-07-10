@@ -7,7 +7,7 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: sm-operator
+      chart: sm-operator  
       version: '0.1.0-Beta'  # This specifies the version to use, here it's a development version
       sourceRef:
         kind: HelmRepository
