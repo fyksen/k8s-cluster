@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
   # Pre Flux-Kustomizations
   - ./bitwardensecret.yaml
+  - ./bw-sample-secret.yaml
