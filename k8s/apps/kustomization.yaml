@@ -10,4 +10,5 @@ resources:
   - ./uptime-kuma/
   - ./bitwarden-so/
   - ./testing-secrets/
+  - ./renovate/
 #  - ./ghost/ 
