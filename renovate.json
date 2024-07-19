@@ -5,12 +5,16 @@
     "fileMatch": ["kustomization\\.yaml$"],
     "enabled": true
   },
-  "helm": {
-    "fileMatch": ["helm-release\\.yaml$"],
-    "enabled": true
-  },
   "helmfile": {
     "fileMatch": ["helmfile\\.yaml$"],
+    "enabled": true
+  },
+  "helm-values": {
+    "fileMatch": ["helm-release.*\\.yaml$"],
+    "enabled": true
+  },
+  "helm-requirements": {
+    "fileMatch": ["helm-release.*\\.yaml$"],
     "enabled": true
   }
 }
