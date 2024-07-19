@@ -9,3 +9,4 @@ resources:
   - ./observability.yaml
   - ./familie.yaml
   - ./bitwarden.yaml
+  - ./renovate.yaml
