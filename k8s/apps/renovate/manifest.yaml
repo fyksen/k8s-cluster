@@ -15,7 +15,7 @@ spec:
               # the manifest
               image: renovate/renovate:35.14.4
               args:
-                - user/repo
+                - fyksen/k8s-cluster
               # Environment Variables
               env:
                 - name: LOG_LEVEL
