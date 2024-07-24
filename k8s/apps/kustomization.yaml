@@ -9,6 +9,5 @@ resources:
   - ./nginx-ingress/
   - ./uptime-kuma/
   - ./bitwarden-so/
-  - ./testing-secrets/
   - ./renovate/
 #  - ./ghost/ 
