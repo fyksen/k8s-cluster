@@ -1,20 +1,19 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
-  "kubernetes": {
-    "fileMatch": ["kustomization\\.yaml$"],
-    "enabled": true
-  },
-  "helmfile": {
-    "fileMatch": ["helmfile\\.yaml$"],
-    "enabled": true
+  "flux": {
+    "fileMatch": [
+      ".+\\.ya?ml$"
+    ]
   },
   "helm-values": {
-    "fileMatch": ["helm-release.*\\.yaml$"],
-    "enabled": true
+    "fileMatch": [
+      ".+\\.ya?ml$"
+    ]
   },
-  "helm-requirements": {
-    "fileMatch": ["helm-release.*\\.yaml$"],
-    "enabled": true
+  "kubernetes": {
+    "fileMatch": [
+      ".+\\.ya?ml$"
+    ]
   }
 }
