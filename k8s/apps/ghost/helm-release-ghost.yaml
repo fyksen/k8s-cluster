@@ -22,7 +22,7 @@ spec:
           main:
             image:
               repository: ghost
-              tag: 5.88.1
+              tag: 5.88.3
             env:
               - name: TZ
                 value: "Europe/Oslo"
