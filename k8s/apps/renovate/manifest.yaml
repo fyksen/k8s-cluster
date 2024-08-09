@@ -14,7 +14,7 @@ spec:
             - name: renovate
               # Update this to the latest available and then enable Renovate on
               # the manifest
-              image: renovate/renovate:38.18.15
+              image: renovate/renovate:38.23.2
               args:
                 - fyksen/k8s-cluster
               # Environment Variables
